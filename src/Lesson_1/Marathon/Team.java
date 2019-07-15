@@ -26,6 +26,7 @@ public class Team
     // информация об участниках прошедших дистанцию
     void showResults()
 {
+    System.out.println("Team "+ name+": "+"прошли дистанцию");
     for (Competitor c : competitors) {
         if (c.isOnDistance()) c.info();
     }
