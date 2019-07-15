@@ -13,23 +13,31 @@ public class Team
         this.competitors = competitors;
     }
 
+    public Competitor[] getCompetitors()
+    {
+        return competitors;
+    }
+
     // информация обо всех участниках команды
     void infoAllCompetitors()
     {
+
         System.out.println("Team "+ name+":");
         for (Competitor c : competitors) {
             c.info();
         }
-
+        System.out.println();
     }
 
     // информация об участниках прошедших дистанцию
     void showResults()
 {
-    System.out.println("Team "+ name+": "+"прошли дистанцию");
+    System.out.println();
+    System.out.println("Team "+ name+" - "+"прошли дистанцию:");
     for (Competitor c : competitors) {
         if (c.isOnDistance()) c.info();
     }
+    System.out.println();
 
 }
 }
