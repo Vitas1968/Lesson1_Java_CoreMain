@@ -10,7 +10,6 @@ public class Animal implements Competitor
     int maxRunDistance;
     int maxJumpHeight;
     int maxSwimDistance;
-
     boolean onDistance;
 
     @Override
@@ -64,6 +63,6 @@ public class Animal implements Competitor
 
     @Override
     public void info() {
-        System.out.println(type + " " + name + " - " + onDistance);
+        System.out.println(type + " " + name);
     }
 }
