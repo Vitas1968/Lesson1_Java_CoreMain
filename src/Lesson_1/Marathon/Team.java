@@ -4,8 +4,8 @@ import Lesson_1.Marathon.competitors.Competitor;
 
 public class Team
 {
-    private String name;
-    private Competitor [] competitors;
+    private String name; // название команды
+    private Competitor [] competitors; //массив участников
 
     public Team(String name, Competitor... competitors)
     {
@@ -13,6 +13,7 @@ public class Team
         this.competitors = competitors;
     }
 
+    // информация обо всех участниках команды
     void infoAllCompetitors()
     {
         System.out.println("Team "+ name+":");
@@ -22,6 +23,7 @@ public class Team
 
     }
 
+    // информация об участниках прошедших дистанцию
     void showResults()
 {
     for (Competitor c : competitors) {
