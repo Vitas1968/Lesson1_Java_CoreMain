@@ -1,4 +1,4 @@
-package Lesson2;
+package Lesson2.DayOfWeekTask;
 
 public enum DaysOfWeek
 {
