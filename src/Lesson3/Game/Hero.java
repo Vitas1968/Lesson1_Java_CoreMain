@@ -45,8 +45,8 @@ abstract class Hero {
 
 class Warrior extends Hero {
 
-    public Warrior(int health, String type, int damage, int addHeal) {
-        super(health, type, damage, addHeal);
+    public Warrior(int health, String name, int damage, int addHeal) {
+        super(health, name, damage, addHeal);
     }
 
     @Override
