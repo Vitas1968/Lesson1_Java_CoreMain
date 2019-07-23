@@ -129,7 +129,7 @@ class Game {
 
         Random randomStep = new Random();
         Random randomHealing = new Random();
-        int round = 3;
+        //int round = 3;
 
 
 
@@ -146,6 +146,7 @@ class Game {
         // счетчик членов команды(бойцов) не считая доктора
         int countTeam1=team1.length-1;
         int countTeam2=team2.length-1;
+        // флаг окончания игры(выхода из внешнего цикла)
         boolean endGame=false;
 
 
