@@ -28,6 +28,6 @@ public class Main {
         course3.doIt(team1);
         team1.showResults();
 
-        
+
     }
 }
