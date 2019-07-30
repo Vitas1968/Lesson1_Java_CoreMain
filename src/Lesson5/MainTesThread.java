@@ -4,10 +4,10 @@ public class MainTesThread
 {
     public static void main(String[] args)
     {
-        int numberOfThreads = 2;
-        Calculatior calc = new Calculatior();
+        int numberOfThreads = 4;
+        Calculatior calc = new Calculatior(numberOfThreads);
         calc.calcTrigArray();
-        calc.newCalcTrigArrayThread();
+        calc.mainMethod();
 
     }
 }
