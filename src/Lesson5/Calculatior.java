@@ -9,7 +9,7 @@ public class Calculatior
 //    private float [] tmp1;
 //    private float [] tmp2;
     //-----------------------------
-    static final int size = 2_0000_000;
+    static final int size = 20_000_000;
     private int numberOfThreads;
     private int paramH;
     float[] mainArray;
